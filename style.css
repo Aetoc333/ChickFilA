@@ -3,14 +3,7 @@ html {
     overflow: hidden;
     -webkit-overflow-scrolling: hidden;
 }
-* {
-    box-sizing: inherit;
-    /*
-    Prevent the browser rendering faux bold/italics for fonts without appropriate variants.
-    See: https://drafts.csswg.org/css-fonts-3/#propdef-font-synthesis
-    */
-    font-synthesis: none;
-}
+
 body {
     margin: 0px;
     overflow: hidden;
@@ -26,13 +19,22 @@ button {
     font-size: 11px;
 }
 
-div,
-body {
-    outline: none;
-}
 
 body input.component:focus {
     border-width: 10 !important;
     border-color: #85f !important;
 }
 
+#Frame{
+    position: relative;
+}
+
+#screenImage{
+    width: 100%
+    height: 100%
+    position: absolute;
+}
+
+#screenImage{
+    z-index: 10;
+}
