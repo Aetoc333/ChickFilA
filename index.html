@@ -12,27 +12,15 @@
 </head>
 <body>
 <main>
-  <div>
-    <style>
-      .__framer-touch-cursor-area,
-      .__framer-touch-cursor-area [data-framer-component-type="Text"] {
-        cursor: url("images/cursors/touch.png") 32 32, auto;
-        cursor: -webkit-image-set(url("images/cursors/touch.png") 1x, url("images/cursors/touch@2x.png") 2x) 32 32, auto;
-      }
-
-      .__framer-touch-cursor-area:active,
-      .__framer-touch-cursor-area [data-framer-component-type="Text"]:active {
-        cursor: url("images/cursors/touch-active.png") 32 32, auto;
-        cursor: -webkit-image-set(url("images/cursors/touch-active.png") 1x, url("images/cursors/touch-active@2x.png") 2x) 32 32, auto;
-      }
-
-    </style>
-      <div id="Frame">
-		<img src="https://axiom-demo-1.netlify.com/node_modules/@framer/framer.device-skin-apple-iphone-xs-max-spacegrey/device.png" style="display: block; position: relative; top: 40px; margin-left: auto; margin-right: auto; width: 440px; height: 857px;">
-        <div id="screenImage" style="position:absolute; top:116px; left:781px;">
+    <div id="Frame">
+		<div id="Container">
+			<div id="phone">
+				<img src="https://axiom-demo-1.netlify.com/node_modules/@framer/framer.device-skin-apple-iphone-xs-max-spacegrey/device.png" style="display: block; position: relative; top: 40px; margin-left: auto; margin-right: auto; width: 440px; height: 857px;">
+			</div>
+			<div id="screenImage" style="position:absolute; top:116px; left:781px;">
               <a href="menu.html"><img src="img/homePage.png" style="display: block; position: relative; z-index: 1; height: 715px;"></a>
-        </div>
-      </div>
-  </div>
+			</div>
+		</div>
+	</div>
 </main>
 </body>

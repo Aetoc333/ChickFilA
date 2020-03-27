@@ -10,30 +10,20 @@ body {
     -webkit-overflow-scrolling: hidden;
 }
 
-body,
-input,
-select,
-button {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
-        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    font-size: 11px;
-}
-
-
-body input.component:focus {
-    border-width: 10 !important;
-    border-color: #85f !important;
-}
 
 #Frame{
     position: relative;
 }
 
+#phone,
 #screenImage{
-    width: 100%
-    height: 100%
-    position: absolute;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
 }
+	
 
 #screenImage{
     z-index: 10;
